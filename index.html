@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Welcome to Musical Trivia</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<body>
+<div class="jumbotron">
+	<h1 class="text-center">Welcome to Musical Trivia <small>Let's check if you are in tune</small></h1>	
+</div>
+
+<div class="container-fluid">
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-1"></div>
+		<div class="col-md-8">
+			<h1 class="text-center">Time Left</h1>
+			<h2 id="timeleft" class="text-center"></h2>
+			<br>
+			<div id="q1" data-answer="Ghantasala">Who is the best singer in the world</div>
+			
+			<input type="radio" name="a1" value="Ghantasala">Ghantasala
+			<input type="radio" name="a1" value="SP">SP
+			<input type="radio" name="a1" value="Yesudas">Yesudas
+			<br>
+			<br>
+			<br>
+			<div id="q2" data-answer="Sivasankari">What is the best song in the world</div>
+			<input type="radio" name="a2" value="Sivasankari">Sivasankari
+			<input type="radio" name="a2" value="Sumam">Sumam Prati Sumam
+			<input type="radio" name="a2" value="Deewanahuwabadal">Deewana Huwa Baadal   
+			<br>
+			<br>
+			<br>
+			<br>
+			<input class="btn btn-default" type="submit" value="Submit"> 
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-1"></div>
+
+	</div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+</html>
